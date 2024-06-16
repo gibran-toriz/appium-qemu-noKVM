@@ -1,0 +1,15 @@
+## Android SDK
+emulator/
+**/latest/
+**/licenses/
+.temp/
+system-images/
+cmdline-tools/
+Emulator-CLI-Autocompleter-master/
+platform-tools/
+
+
+
+## Appium
+emulator.log
+.knownPackages
