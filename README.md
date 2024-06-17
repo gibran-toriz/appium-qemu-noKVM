@@ -12,13 +12,11 @@ mv tools ../cmdline-tools
 # Setup ~/.bashrc
 
 ```text
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 export ANDROID_HOME=/home/ubuntu/appium-qemu-noKVM
 export ANDROID_SDK_ROOT=/home/ubuntu/appium-qemu-noKVM/cmdline-tools/latest
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/tools/bin
 export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
 export PATH=$PATH:$JAVA_HOME/bin

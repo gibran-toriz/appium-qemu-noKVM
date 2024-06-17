@@ -2,7 +2,7 @@
 
 echo "Starting..."
 
-pkill -f emulator
+sudo pkill -f emulator
 
 # Restart the ADB server
 adb kill-server
